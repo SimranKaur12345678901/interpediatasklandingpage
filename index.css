@@ -1,0 +1,314 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(10,126,140);
+     background-position: center;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 55%, 0 100%);
+    animation-name: appear;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+@keyframes appear{
+    0%{
+        opacity: 0;
+        bottom: -200px;
+    }
+    100%{
+        opacity: 1;
+        bottom: 0;
+    }
+}
+.container  h1{
+    color: white;
+    position: relative;
+    top: -10px;
+     right: 620px;
+}
+ .navbar h1 {
+    color: white;
+    font-size: 40px;
+}
+.navbar {
+    height: 100px;
+    width: 100%;
+    /* margin-top: -42px; */
+    background-color: rgb(10,126,140);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ padding-top: 10px;
+}
+
+ul {
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 20px;
+    /* margin-right: -525px; */
+}
+li{
+    /* margin-top: 30px */
+    list-style: none;
+}
+li a {
+    margin: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 27px;
+}
+ ul li h2 a{
+    color: white;
+}
+ul li input{
+    height: 39px;
+    width: 126px;
+  color: yellow;
+  background-color: rgb(10,126,140);
+  border-radius:  50px;
+  margin-top: 2px;
+margin-left: 35px;
+font-size: bold;
+font-size: large;
+}
+ li input:hover{
+    background-color: yellow;
+    height: 30px;
+}
+.container .cent h2{
+    height: 300px;
+    width: 380px;
+    /* border: 2px solid black; */
+    color: white;
+    margin-top: 250px;
+    margin-left: 190px;
+    font-size: 40px;
+  }
+#btn{
+    height: 50px;
+    width: 200px; 
+    border-radius: 15px;
+    font-size: 17px;
+    font-family: sans-serif;
+    text-align: center;
+}
+  .container .cent h4{
+    margin-top: -150px;
+       margin-left: 260px;
+       color: white;
+
+  }
+  .a1{
+    height: 350px;
+    width: 350px;
+  }
+ .a1   img{
+    width: 100%;
+    height: 250px;
+    position: relative; 
+    bottom: 350px;
+    left: 1000px;
+}
+main{
+    height: 2300px;
+    margin-top: -200px;
+}
+.main{
+    height: 400px;
+    width: 689px;
+  /* border: 2px solid black; */
+  margin: auto;
+  font-family: "Wix Madefor Text", sans-serif;
+}
+.main h2{
+    font-size: 35px;
+}
+.main  h3{
+    font-size: 19px;
+    color: rgba(19, 18, 18, 0.342);
+}
+.main   span{
+    color: rgba(224, 129, 13, 0.927);
+}
+.images   img{
+    position: relative;
+    bottom: 36px;
+    left: 427px;
+    width: 698px;
+    height: 248px;
+}
+main   .slide{
+    height: 940px;
+    width: 1550px;
+    background-color: #a8d8ff3c;
+    margin-top: -41px;
+}
+.slide  h1{
+    color: black;
+    margin-left: 579px;
+  padding-top: 95px;
+}
+.slide  h1 span{
+    color: rgba(224, 129, 13, 0.927);
+}
+.sllor{
+    height: 679px;
+    width: 1520px;
+    display: flex;
+    /* border: 2px solid black; */
+    overflow-x: scroll;
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+    margin-top: 0px;
+}
+.sllor  img{
+    width: 600px;
+    height: 480px;
+}
+.cute{
+    width: 1073px;
+  height: 500px;
+  /* border: 2px solid blue; */
+  margin: auto;
+    margin-top: auto;
+    margin-top: 155px;
+  color: black;
+  font-family: "Wix Madefor Text", sans-serif;
+}
+.cute1 img{
+    height: 430px;
+    width: 490px;
+clip-path: circle(50%);
+}
+.cute   .cute2{
+    height: 430px;
+    width: 554px;
+  /* border: 2px solid blue; */
+  margin-top: 10px;
+  position: relative;
+  left: 516px;
+  top: -385px;
+}
+.cute2 p{
+    font-size: 18px;
+}
+.cute  .cute2   h1{
+    color:rgba(0, 0, 0, 0.637);
+}
+.cute2 p span{
+    color: rgba(224, 129, 13, 0.927);
+}
+.cute2  p  h2 {
+    font-size: 10px;
+}
+footer{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerA{
+height: 500px;
+width: 500px;
+/* border: 2px solid red; */
+}
+.footerB{
+    height: 500px;
+    width: 500px;
+    /* border: 2px solid red; */
+    }
+.footerC{
+        height: 500px;
+        width: 500px;
+        /* border: 2px solid red; */
+        }
+.footerA   h1{
+    color: white;
+    margin-top: 105px;
+    margin-left: 109px;
+    font-size: 45px;
+        }
+        .footerA  h1  span{
+            color: rgba(224, 129, 13, 0.927);
+
+        }
+        .footerA  p{
+            font-size: 19px;
+            color: rgb(174, 170, 170);
+            margin-left: 109px;
+        }
+        footer .footerB h1{
+            color: rgb(174, 170, 170);
+    margin-top: 105px;
+    margin-left: 109px;
+    font-size: 20px;
+        }
+        footer .footerB h2{
+            color:  rgb(174, 170, 170);
+            margin-left: 109px;
+            font-size: 20px;
+        }
+        footer  .footerB  p{
+            color:  rgb(174, 170, 170);
+            font-size: 20px;
+        }
+        .footerB h2:hover{
+            color: rgba(224, 129, 13, 0.927);
+        }
+        .footerB p:hover{
+            color: rgba(224, 129, 13, 0.927);
+        }
+        footer  .footerC  h1{
+            color: rgb(174, 170, 170);
+            margin-top: 105px;
+            /* margin-left: 109px; */
+            font-size: 20px;
+        }
+        footer .footerC  h2{
+            color:  rgb(174, 170, 170);
+            /* margin-left: 109px; */
+            font-size: 20px;
+        }
+        .footerC  p iclass:hover{
+            color: rgba(224, 129, 13, 0.927);
+        }
+@media screen and(max-width:1300px){
+
+    }
+@media screen and(max-width:1080px){
+    .container .navbar {
+        width: 800px;
+    }
+    h1{
+        position: relative;
+        left: 1000px;
+    }
+    .a1{
+        width: 100%;
+    height: 250px;
+    position: relative; 
+    bottom: 350px;
+    left: 50px;
+    }
+}
+@media screen and(max-width:500px){
+    .navbar ul{
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
